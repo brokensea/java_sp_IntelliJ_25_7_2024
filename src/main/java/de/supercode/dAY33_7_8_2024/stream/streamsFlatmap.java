@@ -56,7 +56,6 @@ public class streamsFlatmap {
                 .filter(zahl -> zahl > 5)
                 .toList();
         System.out.println(groesserAls5List);
-
     }
 
 }
