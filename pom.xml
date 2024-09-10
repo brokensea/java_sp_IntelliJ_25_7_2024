@@ -13,6 +13,7 @@
         <maven.compiler.target>22</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.jetbrains</groupId>
@@ -33,6 +34,15 @@
             <artifactId>h2</artifactId>
             <version>RELEASE</version>
         </dependency>
+
+        <!-- Your custom dependency -->
+        <dependency>
+            <groupId>com.exp</groupId>
+            <artifactId>mavenVS_SP_19_8_2024</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    
+
     </dependencies>
 
 </project>
